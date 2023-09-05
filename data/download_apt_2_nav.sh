@@ -4,7 +4,7 @@
 # LICENSE file in the root directory of this source tree.
 
 cd data
-echo "Downloading the sequence and ground truth SDF ..."
+#echo "Downloading the sequence and ground truth SDF ..."
 gdown https://drive.google.com/drive/folders/1GTDhL0aXKv--YO0p6XLfYgSnMgzg1dXX?usp=sharing --folder
 mv data_small/seqs.zip seqs.zip
 mv data_small/gt_sdfs.zip gt_sdfs.zip

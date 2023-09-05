@@ -192,6 +192,7 @@ class Trainer():
         self.fps = 30  # this can be set to anything when in live mode
         if not self.live:
             self.seq_dir = self.config["dataset"]["seq_dir"]
+            print(self.seq_dir)
             self.seq = [x for x in self.seq_dir.split('/') if x != ''][-1]
             self.ims_file = self.seq_dir
             if self.dataset_format != "realsense_franka_offline":

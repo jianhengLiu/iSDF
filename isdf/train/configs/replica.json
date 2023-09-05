@@ -1,11 +1,10 @@
 {
     "dataset": {
-        "format": "replicaCAD",
-        "seq_dir": "../../data/seqs/apt_2_nav/",
-        "gt_sdf_dir": "../../data/gt_sdfs/apt_2/",
+        "format": "replica",
+        "seq_dir": "/media/nrosliu/T7/Replica/room2",
         "noisy_depth": 1,
         "im_indices": [0, 200, 400, 500, 570, 650, 800, 750, 700],
-        "depth_scale": 3276.75,
+        "depth_scale": 6553.5,
         "fps": 30,
         "camera": {
             "w": 1200,

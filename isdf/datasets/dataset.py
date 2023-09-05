@@ -32,6 +32,7 @@ class ReplicaDataset(Dataset):
 
         self.Ts = None
         if traj_file is not None:
+            print(traj_file)
             self.Ts = np.loadtxt(traj_file).reshape(-1, 4, 4)
         self.root_dir = root_dir
         self.rgb_transform = rgb_transform

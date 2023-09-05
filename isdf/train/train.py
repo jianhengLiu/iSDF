@@ -315,7 +315,7 @@ if __name__ == "__main__":
         update_mesh_freq = None
 
     # save
-    save = False
+    save = True
     if save:
         now = datetime.now()
         time_str = now.strftime("%m-%d-%y_%H-%M-%S")
